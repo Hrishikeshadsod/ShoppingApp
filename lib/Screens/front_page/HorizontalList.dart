@@ -4,7 +4,7 @@ class MyList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 520,
+      height: 270,
       child: ListView(
         scrollDirection:Axis.horizontal,
       children:<Widget>[
@@ -37,6 +37,7 @@ class MyListView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 180,
+      height:300,
       child: InkWell(
         onTap:(){},
         child: ListTile(
