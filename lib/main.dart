@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shopping/Screens/front_page/front_page.dart';
 import 'package:flutter/services.dart';
-import 'package:shopping/Screens/reccommendedlist.dart';
+import 'package:shopping/Screens/front_page/reccommendedlist.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -9,7 +9,6 @@ void main() {
       [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
   runApp(MyApp());
 }
-X KJ
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
