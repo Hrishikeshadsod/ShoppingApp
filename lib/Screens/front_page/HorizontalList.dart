@@ -1,16 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:shopping/Screens/second_page/second_page.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'front_page.dart';
-import 'ImageList.dart';
-
 class MyList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
     return ListView(
       scrollDirection: Axis.horizontal,
-      
+
         children: <Widget>[
           MyListView(
             img_location: "images/winter_wear/D1.jpeg",
@@ -52,7 +50,6 @@ class MyList extends StatelessWidget {
     );
   }
 }
-
 class MyListView extends StatelessWidget {
   final String img_location;
   final String img_caption;
@@ -64,7 +61,9 @@ class MyListView extends StatelessWidget {
       width: 280,
       //height: 1000,
       child: InkWell(
-        onTap: () {},
+        onTap:(){
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Second_screen()));
+        },
         child: ListTile(
 
           title: Image.asset(img_location),
