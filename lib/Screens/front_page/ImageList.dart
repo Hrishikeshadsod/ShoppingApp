@@ -22,6 +22,23 @@ class ImageList{
     ImageList(productName:"Brown Dress", path:'images/normal_wear/1B.jpeg',Price:800.0,composition:"100% fibre",country:"Japan",details:"" ),
     ImageList(productName:"Black Top", path:'images/normal_wear/B1.jpeg',Price:880.0,composition:"100% polyester",country:"Britain",details:"" ),
     ImageList(productName:"Jeans Wear", path:'images/normal_wear/C1.jpeg',Price:870.0,composition:"100% cotton",country:"India",details:"" ),
+    ImageList(productName:"Jeans Wear", path:'images/normal_wear/C2.jpeg',Price:870.0,composition:"100% cotton",country:"India",details:"" ),
+    ImageList(productName:"Jeans Wear", path:'images/normal_wear/C3.jpeg',Price:870.0,composition:"100% cotton",country:"India",details:"" ),
+    ImageList(productName:"Jeans Wear", path:'images/normal_wear/B2.jpeg',Price:870.0,composition:"100% cotton",country:"India",details:"" ),
+    ImageList(productName:"Jeans Wear", path:'images/winter_wear/E1.jpg',Price:870.0,composition:"100% cotton",country:"India",details:"" ),
+    ImageList(productName:"Jeans Wear", path:'images/winter_wear/E2.jpg',Price:870.0,composition:"100% cotton",country:"India",details:"" ),
+    ImageList(productName:"Jeans Wear", path:'images/winter_wear/F1.jpg',Price:870.0,composition:"100% cotton",country:"India",details:"" ),
+    ImageList(productName:"Jeans Wear", path:'images/pink-coat.jpg',Price:870.0,composition:"100% cotton",country:"India",details:"" ),
+    ImageList(productName:"Jeans Wear", path:'images/brown-coat.jpg',Price:870.0,composition:"100% cotton",country:"India",details:"" ),
+    ImageList(productName:"Jeans Wear", path:'images/green-coat.jpg',Price:870.0,composition:"100% cotton",country:"India",details:"" ),
+    ImageList(productName:"Jeans Wear", path:'images/woolen-coat.jpg',Price:870.0,composition:"100% cotton",country:"India",details:"" ),
+    ImageList(productName:"Black Top", path:'images/normal_wear/B1.jpeg',Price:880.0,composition:"100% polyester",country:"Britain",details:"" ),
+    ImageList(productName:"Jeans Wear", path:'images/normal_wear/C1.jpeg',Price:870.0,composition:"100% cotton",country:"India",details:"" ),
+    ImageList(productName:"Jeans Wear", path:'images/normal_wear/C2.jpeg',Price:870.0,composition:"100% cotton",country:"India",details:"" ),
 
 
   ];
+
+
+
+
