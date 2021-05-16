@@ -43,39 +43,42 @@ class MyList extends StatelessWidget {
                     flex:1,
                     child: Container(
                       //alignment: Alignment.topCenter,
-                      child: Row(
-                        children: <Widget>[
-                          Expanded(
-                            flex: 5,
-                            child: Text(
-                              Dress[index].productName.toString(),
-                              style: GoogleFonts.quicksand(
-                                textStyle: TextStyle(
-                                  color: Colors.black,
-                                  fontSize: 17,
-                                  fontWeight: FontWeight.w900,
+                      child: Center(
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            Expanded(
+                              flex: 4,
+                              child: Text(
+                                Dress[index].productName.toString(),
+                                style: GoogleFonts.quicksand(
+                                  textStyle: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: 17,
+                                    fontWeight: FontWeight.w900,
+                                  ),
                                 ),
                               ),
                             ),
-                          ),
-                          Expanded(
-                            flex: 1,
-                            child: SizedBox(),
-                          ),
-                          Expanded(
-                            flex: 2,
-                            child: Text(
-                              "\$" +Dress[index].Price.toString(),
-                              style: GoogleFonts.quicksand(
-                                textStyle: TextStyle(
-                                  color: Colors.grey,
-                                  fontSize: 17,
-                                  fontWeight: FontWeight.w700,
+                            Expanded(
+                              flex: 1,
+                              child: SizedBox(),
+                            ),
+                            Expanded(
+                              flex: 3,
+                              child: Text(
+                                "\$" +Dress[index].Price.toString(),
+                                style: GoogleFonts.quicksand(
+                                  textStyle: TextStyle(
+                                    color: Colors.grey,
+                                    fontSize: 17,
+                                    fontWeight: FontWeight.w700,
+                                  ),
                                 ),
                               ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
                   ),
